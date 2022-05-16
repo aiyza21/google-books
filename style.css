@@ -1,0 +1,63 @@
+.heading {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+.heading--main {
+    justify-content: center;
+    font-size: 100px;
+    font-family: "Koulen", cursive;
+}
+.heading--text {
+    font-size: 25px;
+    width: 550px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #a3a9aaff;
+}
+.heading--search {
+    border-radius: 30%;
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+    background-color: #3f88c5ff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e7cfbcff;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 70vw;
+    font-family: "Koulen", cursive, Helvetica, sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.main div:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.books {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+.books p {
+    font-style: italic;
+}
+.books li {
+    font-size: 23px;
+    font-weight: 500;
+}
